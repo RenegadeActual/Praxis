@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 
 import io.github.renegadeactual.praxis.registry.PraxisBlocks;
+import io.github.renegadeactual.praxis.registry.PraxisItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
@@ -22,6 +23,7 @@ public class Praxis {
         modEventBus.addListener(this::commonSetup);
 
         PraxisBlocks.register(modEventBus);
+        PraxisItems.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 
