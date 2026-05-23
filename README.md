@@ -1,3 +1,4 @@
+<img width="1024" height="1024" alt="Praxis" src="https://github.com/user-attachments/assets/bac7df06-b933-469c-8976-3a19aeb1ff01" />
 
 PRAXIS: Practical Industrial Solutions
 =======
