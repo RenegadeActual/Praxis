@@ -1,25 +1,27 @@
 
-Installation information
+PRAXIS: Practical Industrial Solutions
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+A Minecraft tech mod that strives to bring Gregic levels of complexity and multiblock spam to modern Minecraft versions.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+*NOTE: This mod is currently in development and does not have a public release yet. After core features are implemented and tested, expect a Beta version to officially release for public testing and potentially opening to contributions from the public to help guide the project. Until then, please be patient and feel free to watch/star the repository to stay up to date on development! Cloning this respository for early testing is NOT recommended as I am not liable for whatever crap it currently does in its infant state. Build at your own risk!*
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
 
-Mapping Names:
+Minecraft Version Targets:
 ============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+
+| Mod Version | MC Version |
+| ----------- | ---------- |
+| ```1.0.0``` | ```26.1.2``` |
+
+Dependencies
+===========
+
+- Minecraft version 26.1.2
+- [NeoForge 26.1.2.64-beta](https://neoforged.net)
+- (SOON)(Optional) [JEI](https://github.com/mezz/JustEnoughItems/releases) 
 
 Additional Resources: 
 ==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Mod Documentation: COMING SOON  
+PRAXIS Discord: COMING SOON
