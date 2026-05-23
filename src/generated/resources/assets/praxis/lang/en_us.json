@@ -1,0 +1,20 @@
+{
+  "block.praxis.copper_block": "Block of Copper",
+  "block.praxis.iron_block": "Block of Iron",
+  "block.praxis.machine_casing": "Machine Casing",
+  "block.praxis.malachite_ore": "Malachite Ore",
+  "item.praxis.copper_block": "Block of Copper",
+  "item.praxis.copper_dust": "Copper Dust",
+  "item.praxis.copper_ingot": "Copper Ingot",
+  "item.praxis.copper_nugget": "Copper Nugget",
+  "item.praxis.copper_plate": "Copper Plate",
+  "item.praxis.iron_block": "Block of Iron",
+  "item.praxis.iron_dust": "Iron Dust",
+  "item.praxis.iron_ingot": "Iron Ingot",
+  "item.praxis.iron_nugget": "Iron Nugget",
+  "item.praxis.iron_plate": "Iron Plate",
+  "item.praxis.malachite_dust": "Malachite Dust",
+  "item.praxis.malachite_ore": "Malachite Ore",
+  "item.praxis.raw_malachite": "Raw Malachite",
+  "itemGroup.praxis.main": "Praxis"
+}

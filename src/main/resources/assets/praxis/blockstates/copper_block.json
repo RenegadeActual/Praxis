@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "praxis:block/copper_block"
+    }
+  }
+}

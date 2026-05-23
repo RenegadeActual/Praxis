@@ -26,8 +26,8 @@ public final class DataGenerators {
     public static void gatherData(GatherDataEvent.Client event) {
         Praxis.LOGGER.info("Praxis datagen: GatherDataEvent.Client fired. No providers registered yet.");
 
-        // Providers will be registered here in upcoming sessions:
-        // event.createProvider(PraxisLanguageProvider::new);
+        // Providers will be registered here:
+        event.createProvider(PraxisLanguageProvider::new);
         // event.createProvider(PraxisModelProvider.Runner::new);
         // event.createProvider(PraxisLootTableProvider.Runner::new);
         // event.createProvider(PraxisBlockTagProvider::new);

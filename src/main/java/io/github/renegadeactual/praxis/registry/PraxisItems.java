@@ -105,6 +105,27 @@ public final class PraxisItems {
         return MATERIAL_ITEMS.get(new MaterialFormKey(material, form));
     }
 
+    private static Map<Item, MaterialFormKey> itemToMaterialForm = null;
+
+    private static Map<Item, MaterialFormKey> getItemToMaterialForm() {
+        if (itemToMaterialForm == null) {
+            Map<Item, MaterialFormKey> map = new HashMap<>();
+            for (Map.Entry<MaterialFormKey, DeferredItem<? extends Item>> entry : MATERIAL_ITEMS.entrySet()) {
+                map.put(entry.getValue().get(), entry.getKey());
+            }
+            itemToMaterialForm = map;
+        }
+        return itemToMaterialForm;
+    }
+
+    /**
+     * Reverse lookup: given an Item, return its (material, form) if it's a material-driven
+     * Praxis item. Returns null for standalone items like MACHINE_CASING and for non-Praxis items.
+     */
+    public static MaterialFormKey materialFormFor(Item item) {
+        return getItemToMaterialForm().get(item);
+    }
+
     private PraxisItems() {}
 
     public static void register(IEventBus modEventBus) {

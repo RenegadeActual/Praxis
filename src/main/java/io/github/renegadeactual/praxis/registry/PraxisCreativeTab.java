@@ -24,6 +24,9 @@
 package io.github.renegadeactual.praxis.registry;
 
 import io.github.renegadeactual.praxis.Praxis;
+import io.github.renegadeactual.praxis.material.Material;
+import io.github.renegadeactual.praxis.material.MaterialForm;
+import io.github.renegadeactual.praxis.material.Materials;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -47,6 +50,12 @@ public class PraxisCreativeTab {
                     .icon(() -> PraxisItems.MACHINE_CASING.get().getDefaultInstance()) // the item that shows on the tab
                     .displayItems((parameters, output) -> {
                         output.accept(PraxisItems.MACHINE_CASING.get());
+
+                        for (Material material : Materials.ALL) {
+                            for (MaterialForm form : material.availableForms()) {
+                                output.accept(PraxisItems.get(material, form).get());
+                            }
+                        }
                     })
                     .build()); // always at the end of the builder methods
 
