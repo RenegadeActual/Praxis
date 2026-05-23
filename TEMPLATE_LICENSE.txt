@@ -1,8 +1,10 @@
 MIT License
 
-Copyright (c) 2023 NeoForged project
+Copyright (c) 2026 William Whatley, the NeoForged Project
 
-This license applies to the template files as supplied by github.com/NeoForged/MDK
+This license applies to the custom code written for the Praxis Mod. All other
+code such as the code supplied by the NeoForged Project are also subject to
+this license.
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
