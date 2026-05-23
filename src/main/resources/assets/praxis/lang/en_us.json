@@ -1,7 +1,7 @@
 {
-  "itemGroup.praxis": "Example Mod Tab",
-  "block.praxis.example_block": "Example Block",
-  "item.praxis.example_item": "Example Item",
+  "itemGroup.praxis.main": "Praxis",
+  "block.praxis.machine_casing": "Machine Casing",
+  "item.praxis.machine_casing": "Machine Casing",
 
   "praxis.configuration.title": "praxis Configs",
   "praxis.configuration.section.praxis.common.toml": "praxis Configs",

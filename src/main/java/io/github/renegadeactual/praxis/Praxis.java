@@ -6,6 +6,7 @@ import com.mojang.logging.LogUtils;
 
 import io.github.renegadeactual.praxis.registry.PraxisBlocks;
 import io.github.renegadeactual.praxis.registry.PraxisItems;
+import io.github.renegadeactual.praxis.registry.PraxisCreativeTab;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
@@ -24,6 +25,7 @@ public class Praxis {
 
         PraxisBlocks.register(modEventBus);
         PraxisItems.register(modEventBus);
+        PraxisCreativeTab.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 
