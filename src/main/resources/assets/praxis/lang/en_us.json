@@ -1,0 +1,13 @@
+{
+  "itemGroup.praxis": "Example Mod Tab",
+  "block.praxis.example_block": "Example Block",
+  "item.praxis.example_item": "Example Item",
+
+  "praxis.configuration.title": "praxis Configs",
+  "praxis.configuration.section.praxis.common.toml": "praxis Configs",
+  "praxis.configuration.section.praxis.common.toml.title": "praxis Configs",
+  "praxis.configuration.items": "Item List",
+  "praxis.configuration.logDirtBlock": "Log Dirt Block",
+  "praxis.configuration.magicNumberIntroduction": "Magic Number Text",
+  "praxis.configuration.magicNumber": "Magic Number"
+}
