@@ -8,12 +8,12 @@ A Minecraft tech mod that strives to bring Gregic levels of complexity and multi
 *NOTE: This mod is currently in development and does not have a public release yet. After core features are implemented and tested, expect a Beta version to officially release for public testing and potentially opening to contributions from the public to help guide the project. Until then, please be patient and feel free to watch/star the repository to stay up to date on development! Cloning this respository for early testing is NOT recommended as I am not liable for whatever crap it currently does in its infant state. Build at your own risk!*
 
 
-Minecraft Version Targets:
+Compatability Version Targets:
 ============
 
-| Mod Version | MC Version |
-| ----------- | ---------- |
-| ```1.0.0``` | ```26.1.2``` |
+| Mod Version | MC Version | NeoForge Version
+| ----------- | ---------- | ---------------- |
+| ```1.0.0``` | ```26.1.2``` | ```26.1.2.64-beta``` |
 
 Dependencies
 ===========
