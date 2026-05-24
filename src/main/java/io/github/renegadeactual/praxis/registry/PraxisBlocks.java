@@ -118,6 +118,27 @@ public final class PraxisBlocks {
         return MATERIAL_BLOCKS.get(new MaterialFormKey(material, form));
     }
 
+    private static Map<Block, MaterialFormKey> blockToMaterialForm = null;
+
+    private static Map<Block, MaterialFormKey> getBlockToMaterialForm() {
+        if (blockToMaterialForm == null) {
+            Map<Block, MaterialFormKey> map = new HashMap<>();
+            for (Map.Entry<MaterialFormKey, DeferredBlock<Block>> entry : MATERIAL_BLOCKS.entrySet()) {
+                map.put(entry.getValue().get(), entry.getKey());
+            }
+            blockToMaterialForm = map;
+        }
+        return blockToMaterialForm;
+    }
+
+    /**
+     * Reverse lookup: given a Block, return its (material, form) if it's a material-driven
+     * Praxis block. Returns null for standalone blocks like MACHINE_CASING and for non-Praxis blocks.
+     */
+    public static MaterialFormKey materialFormFor(Block block) {
+        return getBlockToMaterialForm().get(block);
+    }
+
     private PraxisBlocks() {}
 
     public static void register(IEventBus modEventBus) {
