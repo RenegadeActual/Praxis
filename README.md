@@ -20,6 +20,7 @@ Dependencies
 
 - Minecraft version 26.1.2
 - [NeoForge 26.1.2.64-beta](https://neoforged.net)
+- (Optional Compat) [Jade 26.1.1+neoforge](https://modrinth.com/mod/jade/version/26.1.1+neoforge)
 - (SOON)(Optional) [JEI](https://github.com/mezz/JustEnoughItems/releases) 
 
 Additional Resources: 
