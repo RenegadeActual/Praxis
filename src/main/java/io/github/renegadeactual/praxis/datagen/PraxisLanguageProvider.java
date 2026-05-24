@@ -31,6 +31,9 @@ public final class PraxisLanguageProvider extends LanguageProvider {
         // ----- Creative tab -----
         add("itemGroup.praxis.main", "Praxis");
 
+        // ----- Jade Compat -----
+        add("config.jade.plugin_praxis.material_info", "Material Info");
+
         // ----- Material-driven items, generated from Materials.ALL -----
         for (Material material : Materials.ALL) {
             for (MaterialForm form : material.availableForms()) {

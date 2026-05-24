@@ -89,6 +89,7 @@ public final class PraxisBlocks {
                         BlockBehaviour.Properties.of()
                                 .mapColor(MapColor.STONE)
                                 .strength(3.0f, 3.0f)
+                                .requiresCorrectToolForDrops()
                                 .sound(SoundType.STONE)
                                 .setId(ResourceKey.create(Registries.BLOCK, registryName))
                 )

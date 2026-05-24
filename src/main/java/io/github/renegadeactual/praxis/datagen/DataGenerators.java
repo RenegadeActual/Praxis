@@ -29,8 +29,8 @@ public final class DataGenerators {
         // Providers will be registered here:
         event.createProvider(PraxisLanguageProvider::new);
         // event.createProvider(PraxisModelProvider.Runner::new);
-        // event.createProvider(PraxisLootTableProvider.Runner::new);
-        // event.createProvider(PraxisBlockTagProvider::new);
+        event.createProvider(PraxisLootTableProvider::new);
+        event.createProvider(PraxisBlockTagsProvider::new);
         // event.createProvider(PraxisItemTagProvider::new);
     }
 }
